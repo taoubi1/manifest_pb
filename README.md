@@ -26,7 +26,7 @@
   <a href="https://pitchblackrecovery.com/docs" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  
+
   <a href="https://www.patreon.com/pitchblackrecovery">
     <img src="https://img.shields.io/badge/$-donate-orange.svg?maxAge=2592000&amp;style=flat">
   </a>
@@ -82,7 +82,7 @@
 
 ```bash
 # Initialize the latest stable branch
-$ repo init -u https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-9.0
+$ repo init --depth=1 -u https://github.com/taoubi1/manifest_pb.git -b android-9.0
 
 # Sync the latest stable branch
 $ repo sync

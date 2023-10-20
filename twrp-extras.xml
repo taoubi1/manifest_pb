@@ -13,16 +13,16 @@
     <project path="vendor/utils" name="vendor_utils" remote="PitchBlackRecoveryProject" revision="pb">
         <linkfile src="pb_build.sh" dest="vendor/pb/pb_build.sh" />
     </project>
-    
+
 
     <!-- External Packages -->
     <project path="external/busybox" name="android_external_busybox" remote="PitchBlackRecoveryProject" revision="android-9.0" />
-    <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="PitchBlackRecoveryProject" revision="android-9.0" /> 
+    <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="PitchBlackRecoveryProject" revision="android-9.0" />
     <project path="external/zip" name="android_external_zip" remote="PitchBlackRecoveryProject" revision="lineage-16.0" />
-  
+
     <!-- Magiskboot -->
     <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="PitchBlackRecoveryProject" revision="master" />
-	
+
     <!-- Include TeamWin android_system_update_engine to build a good update_engine_sideload -->
     <project path="system/update_engine" name="android_system_update_engine" remote="TeamWin" revision="android-9.0" />
 

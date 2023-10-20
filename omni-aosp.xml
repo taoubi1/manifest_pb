@@ -54,7 +54,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-9.0" groups="pdk" />
 
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="omnirom" revision="android-9.0" />
-  
+
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-9.0" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-9.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-9.0" />

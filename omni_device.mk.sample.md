@@ -13,11 +13,11 @@ $(call inherit-product, device/<path>/device.mk) -- path to main device makefile
 $(call inherit-product, vendor/pb/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
-BOARD_VENDOR := 
-PRODUCT_BRAND := 
-PRODUCT_DEVICE := 
+BOARD_VENDOR :=
+PRODUCT_BRAND :=
+PRODUCT_DEVICE :=
 PRODUCT_NAME := omni_device
-PRODUCT_MANUFACTURER := 
-PRODUCT_MODEL := 
-TARGET_VENDOR := 
+PRODUCT_MANUFACTURER :=
+PRODUCT_MODEL :=
+TARGET_VENDOR :=
 ```
